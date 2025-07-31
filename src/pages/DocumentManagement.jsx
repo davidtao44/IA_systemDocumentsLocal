@@ -62,46 +62,7 @@ function DocumentManagement() {
       {/* Upload Zone */}
       <UploadZone />
 
-      {/* Ejemplo de Div Centrado - Ancho Completo */}
-      <Box sx={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        my: 2,
-        minHeight: '120px',
-        width: '100%', // Ocupa todo el ancho disponible
-        border: '2px dashed #1976d2',
-        borderRadius: 2,
-        backgroundColor: 'rgba(25, 118, 210, 0.05)'
-      }}>
-        <Box sx={{ 
-          textAlign: 'center',
-          p: 4,
-          backgroundColor: 'white',
-          borderRadius: 2,
-          boxShadow: 2,
-          border: '1px solid #e0e0e0',
-          maxWidth: '600px', // Ancho máximo para el contenido
-          width: '100%', // Pero que use todo el espacio disponible hasta el máximo
-          mx: 2 // Margen horizontal para que no toque los bordes
-        }}>
-          <Typography variant="h5" color="primary" gutterBottom>
-            🎯 Div Centrado - Ancho Completo
-          </Typography>
-          <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            Este div ocupa todo el ancho disponible y su contenido está centrado
-          </Typography>
-          <Typography variant="caption" sx={{ 
-            display: 'block', 
-            fontFamily: 'monospace',
-            backgroundColor: '#f5f5f5',
-            p: 1,
-            borderRadius: 1
-          }}>
-            width: 100%; display: flex; justify-content: center; align-items: center;
-          </Typography>
-        </Box>
-      </Box>
+      
 
       {/* Main Content Grid */}
       <Grid container spacing={2} sx={{ flexGrow: 1, mt: 1 }}>
