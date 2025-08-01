@@ -10,8 +10,8 @@ import DocumentManagement from './pages/DocumentManagement.jsx';
 import AIChat from './pages/AIChat.jsx';
 import InfrastructureDashboard from './pages/InfrastructureDashboard.jsx';
 import AdminPanel from './pages/AdminPanel.jsx';
-import InteractionLogs from './components/Logs/InteractionLogs.jsx';
-import ResourceAnalysis from './components/Analytics/ResourceAnalysis.jsx';
+import InteractionLogs from './components/Logs';
+import ResourceAnalysis from './components/Analytics';
 import './App.css';
 
 const queryClient = new QueryClient();
